@@ -1,4 +1,4 @@
-# ColdDTA: Utilizing data augmentation and attention-based feature fusion for drug-target binding affinity prediction
+# PKR3dC: Drug-target Affinity Prediction by Introducing Prior-affinity Knowledge and Residue 3D Coordinate Information
 
 ## Datasets download: 
 https://github.com/hkmztrk/DeepDTA/tree/master/data
