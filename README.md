@@ -3,7 +3,7 @@
 ## Architecture
 ![Fig](Fig1.jpg "Model")
 ## requirements
-python==3.7.1
+python==3.7.1<br>
 torch==1.9.0+cu111
 torch-geometric==2.1.0
 torch-scatter==2.0.7
