@@ -33,7 +33,6 @@ https://github.com/G-P-only/PKR3dC/data
 ### data processing
 `python preprocessing.py`
 `python preprocessing_aff.py`
-`python process_protein_3d.py`
 ### training(S1,S2,S3,S4)
 `python train.py --dataset davis/feicold --save_model --batch_size 64 --lr 1e-4`
 `python train_cold.py --dataset davis/(drug、protein、pair)--save_model --batch_size 64 --lr 1e-4 --drug_sim_k 4 --target_sim_k 7`
