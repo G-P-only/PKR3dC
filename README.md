@@ -4,36 +4,38 @@
 
 ## Architecture
 
-## requirements
-python==3.7.1
-torch==1.9.0+cu111
-torch-geometric==2.1.0
-torch-scatter==2.0.7
-torch-sparse==0.6.10
-torch-cluster==1.5.9
-torch-spline-conv==1.2.1
-networkx==2.6.3 
-biopython==1.81
-rdkit==2023.3.2
-dgllife==0.3.2
-deeppurpose==0.1.5
-atom3d==0.2.4
-freesasa==2.2.1
-lifelines==0.27.8
-scikit-learn==1.0.2
-matplotlib==3.3.4
-pandas==1.1.5
-numpy==1.21.6
-tqdm==4.62.3
-plotly==5.18.0
-hyperopt==0.2.7
+![model](Fig1.jpg)
 
-## Datasets download: It includes two public datasets, Davis and Kiba.
-https://github.com/G-P-only/PKR3dC/data
+## requirements
+python==3.7.1<br>
+torch==1.9.0+cu111<br>
+torch-geometric==2.1.0<br>
+torch-scatter==2.0.7<br>
+torch-sparse==0.6.10<br>
+torch-cluster==1.5.9<br>
+torch-spline-conv==1.2.1<br>
+networkx==2.6.3 <br>
+biopython==1.81<br>
+rdkit==2023.3.2<br>
+dgllife==0.3.2<br>
+deeppurpose==0.1.5<br>
+atom3d==0.2.4<br>
+freesasa==2.2.1<br>
+lifelines==0.27.8<br>
+scikit-learn==1.0.2<br>
+matplotlib==3.3.4<br>
+pandas==1.1.5<br>
+numpy==1.21.6<br>
+tqdm==4.62.3<br>
+plotly==5.18.0<br>
+hyperopt==0.2.7<br>
+
+## **Availability of data and materials**
+The code and data are provided at https://github.com/G-P-only/PKR3dC
 
 ## Running
 ### data processing
-`python preprocessing.py`
+`python preprocessing.py`<br>
 `python preprocessing_aff.py`
 
 ### training(S1,S2,S3,S4)
